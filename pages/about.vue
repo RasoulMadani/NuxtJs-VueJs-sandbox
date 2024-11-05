@@ -1,5 +1,15 @@
 <script setup>
-
+useHead(
+    {
+      title: `About`,
+      meta:[
+        {name:'description',content:`About usage`},
+      ],
+      bodyAttrs:{
+        class:'allah'
+      }
+    }
+)
 </script>
 
 <template>
