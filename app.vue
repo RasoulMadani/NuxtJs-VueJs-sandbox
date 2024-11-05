@@ -1,9 +1,11 @@
 <template>
   <div>
     <NuxtRouteAnnouncer />
+    <NuxtLayout>
 <!--    <NuxtWelcome />-->
 <!--    <h2>KJLSDJF</h2>-->
     <NuxtPage/>
+    </NuxtLayout>
   </div>
 </template>
 <script setup>
