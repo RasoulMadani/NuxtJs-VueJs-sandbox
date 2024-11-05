@@ -3,6 +3,12 @@
 </script>
 
 <template>
+  <Head>
+    <Title>Title</Title>
+    <Meta name="description" content="Description" />
+  </Head>
+  <Body class="test-3"></Body>
+
 <div>
  index page
   <NuxtLink to="/about">About Page</NuxtLink>
