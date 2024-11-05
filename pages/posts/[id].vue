@@ -4,7 +4,7 @@ console.log(router.params);
 </script>
 
 <template>
-<h1>allah {{ router.params.id}}</h1>
+<h1>allah {{ router.query.name}}</h1>
 </template>
 
 <style scoped>
