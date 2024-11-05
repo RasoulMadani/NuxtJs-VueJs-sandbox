@@ -1,4 +1,6 @@
 <script setup>
+
+
 useHead(
     {
       title: `About`,
@@ -9,7 +11,10 @@ useHead(
         class:'allah'
       }
     }
-)
+);
+definePageMeta({
+  layout: false
+})
 </script>
 
 <template>

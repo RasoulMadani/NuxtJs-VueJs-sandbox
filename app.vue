@@ -1,17 +1,16 @@
 <template>
   <div>
-    <NuxtRouteAnnouncer />
+    <NuxtRouteAnnouncer/>
     <NuxtLayout name="custom">
-<!--    <NuxtWelcome />-->
-<!--    <h2>KJLSDJF</h2>-->
-    <NuxtPage/>
+
+      <NuxtPage/>
     </NuxtLayout>
   </div>
 </template>
 <script setup>
 useHead({
-  titleTemplate: (title)=>{
-    return title ?  `${title} || Page Title `: '';
+  titleTemplate: (title) => {
+    return title ? `${title} || Page Title ` : '';
   }
 })
 </script>
