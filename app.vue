@@ -8,6 +8,8 @@
 </template>
 <script setup>
 useHead({
-  titleTemplate: '%s | webprog.ir'
+  titleTemplate: (title)=>{
+    return title ?  `${title} || Page Title `: '';
+  }
 })
 </script>
