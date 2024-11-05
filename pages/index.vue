@@ -1,10 +1,10 @@
 <script setup>
-
+const title = ref('Title1');
 </script>
 
 <template>
   <Head>
-    <Title>Title</Title>
+    <Title>{{ title }}</Title>
     <Meta name="description" content="Description" />
   </Head>
   <Body class="test-3"></Body>
