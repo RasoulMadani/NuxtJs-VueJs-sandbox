@@ -1,9 +1,9 @@
 <template>
   <div>
-    <Header></Header>
+    <LayoutHeader></LayoutHeader>
     <NuxtPage>
     </NuxtPage>
-    <Footer></Footer>
+    <LayoutFooter></LayoutFooter>
   </div>
 </template>
 <script setup>
