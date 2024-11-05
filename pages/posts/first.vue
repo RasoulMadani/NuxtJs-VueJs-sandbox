@@ -4,7 +4,7 @@
 
 <template>
 <div>
-  posts
+  First Posts Page
 </div>
 </template>
 
