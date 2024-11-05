@@ -13,13 +13,16 @@ useHead(
     }
 );
 definePageMeta({
-  layout: false
+  layout: 'custom'
 })
 </script>
 
 <template>
-<div>about</div>
-  <NuxtLink to="/">About Page</NuxtLink>
+
+   <div>about</div>
+    <NuxtLink to="/">About Page</NuxtLink>
+
+
 </template>
 
 <style scoped>
