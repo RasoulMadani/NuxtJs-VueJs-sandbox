@@ -1,13 +1,13 @@
-<script setup lang="ts">
-function goToPosts(){
-  return navigateTo('/posts');
-}
+<script setup>
+
 </script>
 
 <template>
-<h1>home</h1>
+<div>
+ index page
   <NuxtLink to="/about">About Page</NuxtLink>
-  <button @click="goToPosts">Posts Page</button>
+  <NuxtLink to="/posts">Posts Page</NuxtLink>
+</div>
 </template>
 
 <style scoped>
