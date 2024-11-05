@@ -6,3 +6,8 @@
     <NuxtPage/>
   </div>
 </template>
+<script setup>
+useHead({
+  titleTemplate: '%s | webprog.ir'
+})
+</script>
