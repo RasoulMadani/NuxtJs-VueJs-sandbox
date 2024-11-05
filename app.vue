@@ -1,7 +1,7 @@
 <template>
   <div>
     <NuxtRouteAnnouncer />
-    <NuxtLayout>
+    <NuxtLayout name="custom">
 <!--    <NuxtWelcome />-->
 <!--    <h2>KJLSDJF</h2>-->
     <NuxtPage/>
