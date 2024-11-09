@@ -1,16 +1,19 @@
 <script setup>
-const title = ref('Title1');
+import {useCounter} from "~/composables/counter/useCounter.js";
+
+const {count,increment,decrement} = useCounter();
 </script>
 
 <template>
-  <Head>
-    <Title>{{ title }}</Title>
-    <Meta name="description" content="Description" />
-  </Head>
-  <Body class="test-3"></Body>
+
 
 <div>
  index page
+  <h2>count : {{count}}</h2>
+  <button @click="increment">Increment</button>
+  <button @click="decrement">Decrement</button>
+  <br>
+  <br>
   <NuxtLink to="/about">About Page</NuxtLink>
   <NuxtLink to="/posts">Posts Page</NuxtLink>
 </div>
