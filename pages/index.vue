@@ -13,7 +13,7 @@ function runToast(){
 
 
 <div>
-  <h2>{{$hello('ali sheikh')}}</h2>
+  <h1>{{$hello('ali sheikh')}}</h1>
   <NuxtLink to="/about">About Page</NuxtLink>
   <NuxtLink to="/posts">Posts Page</NuxtLink>
   <br>
