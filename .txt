@@ -5,3 +5,6 @@ npm i @pinia/nuxt
  yarn add vue-toastification@next
 
 yarn add @nuxt/image
+
+
+ yarn add sass sass-loader
