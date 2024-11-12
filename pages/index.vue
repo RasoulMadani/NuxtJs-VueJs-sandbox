@@ -45,6 +45,7 @@ function runBootstrapToast(){
     </div>
   </div>
 </div>
+  <div class="text-yellow-600">jkj</div>
 
 </template>
 
