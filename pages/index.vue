@@ -27,5 +27,8 @@ function runToast(){
 </template>
 
 <style scoped lang="scss">
-
+$primary: green;
+h1{
+  color: $primary;
+}
 </style>
