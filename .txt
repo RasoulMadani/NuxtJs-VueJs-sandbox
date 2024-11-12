@@ -8,3 +8,4 @@ yarn add @nuxt/image
 
 
  yarn add sass sass-loader
+ yarn add bootstrap

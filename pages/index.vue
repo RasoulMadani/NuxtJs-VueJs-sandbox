@@ -22,6 +22,7 @@ function runToast(){
   <div>
     <NuxtImg src="/images/1.jpg" alt="تصویر نمونه" width="300" height="200" />
   </div>
+  <div class="h1">sdfsdf</div>
 </div>
 
 </template>
