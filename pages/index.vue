@@ -18,7 +18,10 @@ function runToast(){
   <NuxtLink to="/posts">Posts Page</NuxtLink>
   <br>
   <button @click="runToast">run toast</button>
-  <img src="/images/1402-10-10%2010.19.14.jpg" width="400"/>
+  <img src="/images/1.jpg" width="400"/>
+  <div>
+    <NuxtImg src="/images/1.jpg" alt="تصویر نمونه" width="300" height="200" />
+  </div>
 </div>
 
 </template>
