@@ -10,13 +10,10 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@nuxt/image": "^1.8.1",
     "@pinia/nuxt": "^0.7.0",
     "bootstrap": "^5.3.3",
     "nuxt": "^3.14.0",
     "pinia": "^2.2.6",
-    "sass": "^1.80.6",
-    "sass-loader": "^16.0.3",
     "vue": "latest",
     "vue-router": "latest",
     "vue-toastification": "^2.0.0-rc.5"
